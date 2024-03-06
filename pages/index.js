@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
 import Link from 'next/link';
 import styled from 'styled-components';
-import OptionalSlugPage from './optionalSegments/[[...slug]]';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +16,7 @@ export default function Home() {
       </Head>
       <div>Index Page</div>
       <NavTab>
-        <Link href="/todo">Todo Page</Link>
+        <Link href="/count">Count Page</Link>
         <Link href={`/segment/${encodeURIComponent('hello')}`}>
           Segment Page
         </Link>
@@ -29,9 +26,10 @@ export default function Home() {
             query: { slug: ['hello', 'hi', 'bye'] },
           }}
         >
-          OptionalSlugPage
+          OptionalSlug Page
         </Link>
-        <Link href={`/segmentinsegment/post/1/hello`}>SegmentInSegment</Link>
+        <Link href={`/multiSegment/post/1/hello`}>SegmentInSegment</Link>
+        <Link href={`/todoList`}>TodoListPage</Link>
       </NavTab>
     </>
   );
