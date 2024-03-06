@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 프로젝트 설명
+
+해당 프로젝트는 ICT 학점연계 인턴십 프로그램을 통해 2024.03~2024.06 까지 근무하게 된 럽디에서 사용하는 next.js, mobx, swr 등을 학습하기 위한 레포지토리 입니다.
+
+### 현재 진행 중이거나 완료된 학습
+
+- [x] next.js 프로젝트 세팅
+- [x] next.js + mobx 카운팅 해주는 페이지 구현
+- [x] next.js + mobx todo List 구현
+
+### 현재 고민 중인 부분
+
+- next.js 렌더링 관련된 이해가 많이 부족하다
+- mobx를 구현할 때 함수형으로 구현해도 괜찮을 것 같아서 함수형으로 구현을 진행하였는데 공식 문서에서 사용을 할 때는 클래스형으로 구현을 한다는 점이 걸림
+- todo 만들 때 분명히 에러가 나는 부분이 있었는데 껏다 켰더니 해당 에러가 사라져서 무슨 에러였는지 정확하게 판단이 안됨.
 
 ## Getting Started
 
@@ -8,33 +22,6 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
